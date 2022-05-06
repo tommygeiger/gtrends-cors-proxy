@@ -11,7 +11,6 @@ app.all('*', function (req, res) {
             if (error) {
                 console.error('Error: ' + response.statusCode)
             }
-          //  console.log(body);
         }).pipe(res);
     });
     
